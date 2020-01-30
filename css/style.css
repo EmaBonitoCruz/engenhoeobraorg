@@ -1612,3 +1612,62 @@ figcaption {
 #nav-fazemos a:hover {
   text-decoration: underline;
 }
+
+#navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#container-contactos {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 100%;
+  grid-gap: 4rem;
+}
+
+#contact-form input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 13px;
+  resize: vertical;
+}
+
+#contact-form input[type="submit"] {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #333;
+}
+
+#contact-form input:focus,
+textarea:focus {
+  outline: #333333;
+}
+
+#tabela-associados table {
+  font-family: arial, sans-serif;
+  /* border-collapse: separate; */
+  width: 100%;
+}
+
+#tabela-associados td {
+  border: 1px solid var(--primary-color) !important;
+  text-align: left;
+  padding: 8px;
+}
+
+#tabela-associados tr:nth-child(even) {
+  background-color: #dddddd;
+}
