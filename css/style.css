@@ -1,5 +1,6 @@
 ﻿* {
   overflow-x: hidden;
+  --primary-color: #214583;
 }
 
 .content1 {
@@ -1051,7 +1052,7 @@ p2 {
 }
 p9 {
   display: block;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 0px;
   margin-bottom: 2em;
   margin-left: 0;
@@ -1573,13 +1574,39 @@ figcaption {
   margin: auto; */
 }
 
-.link-pdf {
+.link-pdf,
+.link-contact {
   text-decoration: underline;
   color: #214583;
 }
 
-.link-pdf:hover {
+.link-pdf:hover,
+.link-contact:hover {
   color: #333;
   cursor: pointer;
+  text-decoration: underline;
+}
+
+.container {
+  width: 100vw !important;
+}
+
+#nav-fazemos {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  background: var(--primary-color);
+  height: 5rem;
+  align-items: center;
+}
+
+#nav-fazemos a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: 2s ease-in-out;
+}
+
+#nav-fazemos a:hover {
   text-decoration: underline;
 }
