@@ -1597,6 +1597,8 @@ figcaption {
   flex-direction: row;
   justify-content: space-around;
   /* background: var(--primary-color); */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   height: 5rem;
   align-items: center;
 }
