@@ -1596,13 +1596,13 @@ figcaption {
   width: 100%;
   flex-direction: row;
   justify-content: space-around;
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
   height: 5rem;
   align-items: center;
 }
 
 #nav-fazemos a {
-  color: #fff;
+  color: var(--primary-color);
   font-size: 1.5rem;
   transition: 2s ease-in-out;
 }
