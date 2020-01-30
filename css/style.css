@@ -1054,7 +1054,7 @@ p9 {
   display: block;
   font-size: 20px;
   margin-top: 0px;
-  margin-bottom: 2em;
+  margin-bottom: 1.5rem;
   margin-left: 0;
   margin-right: 0;
   font-weight: 800;
@@ -1062,7 +1062,7 @@ p9 {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.05em;
   color: #214583;
-  text-align: justify !important;
+  text-align: center !important;
   z-index: 9999;
 }
 ol {
