@@ -17,4 +17,13 @@ $success = mail($recipient, $subject, $formcontent, $mailheader) or die("Error!"
         echo "error";
     }  
 // }
+if ($_POST['submit']) {
+    if($success){
+        // print "<meta http-equiv=\"refresh\" content=\"0;URL=contacto.php\">";
+        echo "it worked"
+    }else{
+        // print "<meta http-equiv=\"refresh\" content=\"0;URL=contacto.php\">";
+        echo "error"
+    }   
+}
 ?> 
